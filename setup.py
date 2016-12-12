@@ -48,6 +48,7 @@ if __name__ == "__main__":
           download_url=DOWNLOAD_URL,
           long_description=open('README.md').read(),
           zip_safe=False,  # the package can run out of an .egg file
+          install_requires=['pyriemann'],
           classifiers=['Intended Audience :: Science/Research',
                        'Intended Audience :: Developers',
                        'License :: OSI Approved',
